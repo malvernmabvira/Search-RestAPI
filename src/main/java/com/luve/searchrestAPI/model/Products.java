@@ -30,6 +30,7 @@ public class Products {
 	private String brand;
 	private int size;
 	private boolean active;
+	private String description;
 	@CreationTimestamp
 	private LocalDateTime uploaded;
 	@UpdateTimestamp
