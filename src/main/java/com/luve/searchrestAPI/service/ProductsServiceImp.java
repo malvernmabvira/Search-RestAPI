@@ -23,4 +23,10 @@ public class ProductsServiceImp implements ProductsService {
 		return products;
 	}
 
+	@Override
+	public Products createProduct(Products pdt) {
+		// TODO Auto-generated method stub
+		return repo.save(pdt);
+	}
+
 }

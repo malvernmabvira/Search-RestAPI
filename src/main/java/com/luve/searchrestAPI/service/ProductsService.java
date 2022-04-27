@@ -6,5 +6,7 @@ import com.luve.searchrestAPI.model.Products;
 public interface ProductsService {
 	
 	 List<Products> searchProducts(String query);
+	 
+	 Products createProduct(Products pdt);
 
 }
